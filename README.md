@@ -1,4 +1,7 @@
 
+![Screenshot (59)](https://github.com/Abdul-Hussein/Gym-app/assets/136578029/0be3f378-739e-4aec-9099-e642d5c091d7)
+
+Sure, here are the updated use cases and data structure to include the ability for users to view other members of the gym:
 
 ### Use Cases
 
@@ -17,7 +20,7 @@
    
 4. **Register/Search Members**
    - **Description**: Admin registers new members, searches for members by ID or name, and views member details.
-   - **Data Needed**: `name`, `email`, `password`, `bmi`, `available days (list of days)`
+   - **Data Needed**: `name`, `email`, `password`, `available days (list of days)`
    
 5. **Add/View Memberships**
    - **Description**: Admin assigns memberships to members and views all memberships.
@@ -26,27 +29,23 @@
 #### Member Module
 1. **Member Registration and Login**
    - **Description**: Member registers and logs into the system.
-   - **Data Needed**: `name`, `email`, `password`, `bmi`, `available days (list of days)`
-   
-2. **View/Update Profile**
-   - **Description**: Member views and updates their profile details.
-   - **Data Needed**: `name`, `email`, `password`, `profile photo`, `bmi`
-   
-3. **Calculate BMI**
-   - **Description**: Member calculates their BMI.
-   - **Data Needed**: `height`, `weight`
-   
-4. **View Packages**
+   - **Data Needed**: `name`, `email`, `password`, `available days (list of days)`
+
+2. **View Packages**
    - **Description**: Member views all available membership packages.
    - **Data Needed**: `package ID`, `package name`, `description`, `price`, `duration`
    
-5. **View Trainers**
+3. **View Trainers**
    - **Description**: Member views all trainers.
    - **Data Needed**: `trainer ID`, `trainer name`, `expertise`
    
-6. **View Membership Details**
+4. **View Membership Details**
    - **Description**: Member views their membership details.
    - **Data Needed**: `membership ID`, `package name`, `start date`, `end date`
+
+5. **View Other Members**
+   - **Description**: Member views the list of other members in the gym.
+   - **Data Needed**: `member ID`, `name`.
 
 ### Data Needed
 
@@ -55,7 +54,6 @@
 - **Name**: Name of the user
 - **Email**: Email address of the user
 - **Password**: Encrypted password for the user
-- **BMI**: Body Mass Index of the user
 - **Role**: Role of the user (`ADMIN` or `MEMBER`)
 - **Available Days**: List of days the member is available for training
 
@@ -78,4 +76,3 @@
 - **Start Date**: Start date of the membership
 - **End Date**: End date of the membership
 
-This structure will cover the essential features of a gym management system and the corresponding data requirements.
