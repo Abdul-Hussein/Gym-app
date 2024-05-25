@@ -1,6 +1,8 @@
 ### Different components  
-Data models, repositories, services, and controllers.
-
+Data models
+Repositories
+Services
+Controllers.
 
 ### Data Models
 
