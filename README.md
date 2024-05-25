@@ -1,5 +1,5 @@
 # Gym-app
-Certainly! Below is a simple use case for a gym app that helps users choose an exercise plan, enter their details, and provides reminders and timers for their workouts.
+Use case for a  gym app that helps users choose an exercise plan, enter their details, and provides reminders and timers for their workouts.
 
 ### Use Case: Gym App
 
