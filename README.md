@@ -1,7 +1,6 @@
 
 ![Screenshot (59)](https://github.com/Abdul-Hussein/Gym-app/assets/136578029/0be3f378-739e-4aec-9099-e642d5c091d7)
 
-Sure, here are the updated use cases and data structure to include the ability for users to view other members of the gym:
 
 ### Use Cases
 
